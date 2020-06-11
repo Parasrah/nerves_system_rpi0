@@ -3,4 +3,4 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 VERSION=$( cat VERSION )
 
-docker run -it -v $DIR:/home/br-user/app docker.pkg.github.com/parasrah/nerves_system_rpi3/buildroots:$VERSION /bin/bash
+docker run -it -v $DIR:/home/br-user/app docker.pkg.github.com/parasrah/nerves_system_rpi0/buildroots-pi0:$VERSION /bin/bash

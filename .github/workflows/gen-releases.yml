@@ -13,7 +13,7 @@ jobs:
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@2.16
         with:
-          name: parasrah/nerves_system_rpi3/buildroots
+          name: parasrah/nerves_system_rpi0/buildroots-pi0
           username: parasrah
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
